@@ -23,6 +23,6 @@ jobs:
       - name: Deploy via SSH
         run: |
           # Replace these placeholders with your deployment commands
-          ssh git@192.168.65.135 'cd /var/www/devops && git pull origin main'
+          ssh git@192.168.65.134 'cd /var/www/devops && git pull origin main'
           # Additional deployment commands as needed
 
